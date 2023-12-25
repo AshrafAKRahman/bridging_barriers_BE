@@ -6,8 +6,7 @@ import userRoutes from "./routes/userDataRoute.js";
 const app = express();
 
 app.use(morgan("dev"));
-app.use(morgan("dev"));
-app.use(express.static("public"));
+// app.use(express.static("public"));
 app.use(express.json());
 app.use(cors("*"));
 
